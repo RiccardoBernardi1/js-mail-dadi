@@ -24,7 +24,7 @@ main{
     padding-top: 9.375rem;
 }
 main>*{
-    max-width: calc(100%/3);
+    width: calc(100%/3);
     text-align: center;
     padding: 1.25rem;
 }
