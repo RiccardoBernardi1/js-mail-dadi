@@ -1,0 +1,103 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* HEADER */
+header{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 4.375rem;
+}
+h1{
+    font-size: 3.125rem;
+}
+/* MAIN */
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../img/cube-six-gambling-play-37534.jpeg);
+    background-size: cover;
+    padding-top: 9.375rem;
+}
+main>*{
+    max-width: calc(100%/3);
+    text-align: center;
+    padding: 1.25rem;
+}
+#button{
+    padding: 1.875rem;
+    background-color: red;
+    font-size: 3.125rem;
+    font-weight: bold;
+    border-radius: 4.375rem;
+    border: 5px solid yellow;
+    cursor: pointer;
+    transition: scale 0.5s;
+    box-shadow: 0 0 40px;
+}
+#button:hover{
+    scale: 1.1;
+    background-color: green;
+}
+#button:active{
+    scale: 1;
+    box-shadow: inset 0 0 30px;
+}
+#pc-number,#player-number{
+    font-size: 18.75rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    max-height: 21.25rem;
+    max-width: 21.25rem;
+    margin: auto;
+    
+    line-height: 21.25rem;
+}
+#pc-number{
+    color: red;
+    border: 10px solid red;
+}
+#player-number{
+    border: 10px solid green;
+    color: green;
+}
+h2{
+    font-size: 3.125rem;
+    color: green;
+    margin-bottom: 1.875rem;
+    background-color: black;
+    border-radius: 1.25rem;
+    padding: .625rem;
+    border: .125rem solid green;
+}
+.red{
+    color: red;
+    border: .125rem solid red;
+}
+.d-none{
+    display: none;
+}
+#victory{
+    font-size: 5rem;
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+    border: .3125rem solid white;
+    color: white;
+    margin-top: 1.875rem;
+    padding: .625rem;
+}
+#victory.win{
+    color: green;
+    border: .3125rem solid green;
+}
+#victory.lose{
+    color: red;
+    border: .3125rem solid red;
+}
