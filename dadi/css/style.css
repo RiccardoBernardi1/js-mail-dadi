@@ -10,13 +10,14 @@ header{
     text-align: center;
     color: white;
     padding-top: 4.375rem;
+    max-height: 6.25rem;
 }
 h1{
     font-size: 3.125rem;
 }
 /* MAIN */
 main{
-    height: 100vh;
+    height: calc(100vh - 6.25rem);
     display: flex;
     justify-content: space-around;
     background-image: url(../img/cube-six-gambling-play-37534.jpeg);
